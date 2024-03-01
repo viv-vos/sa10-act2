@@ -81,18 +81,6 @@ module GildedRose
     end
   end
 
-  def tick
-    item.tick
-  end
-
-  def quality
-    return item.quality
-  end
-
-  def days_remaining
-    return item.days_remaining
-  end
-
   class Normal
   class Brie
   class Sulfuras
