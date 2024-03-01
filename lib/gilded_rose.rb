@@ -25,15 +25,6 @@ module GildedRose
   end
 
 
-
-  class Sulfuras < Item
-
-    def tick
-
-    end
-  end
-
-
   class Backstage < Item
     def tick
       @days_remaining -= 1
