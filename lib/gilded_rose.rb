@@ -82,4 +82,16 @@ class GildedRose
       @quality += 1 if @days_remaining < 5
     end
   end
+
+  def tick
+    item.tick
+  end
+
+  def quality
+    return item.quality
+  end
+
+  def days_remaining
+    return item.days_remaining
+  end
 end
